@@ -13,7 +13,7 @@ export class Task {
     @Column({ type: "varchar", nullable: true })
     description: string
 
-    @Column({ type: 'enum', enum: Status, default: Status.pendiente, nullable: false })
+    @Column({ type: 'enum', enum: Status, nullable: false })
     status: Status
 
     @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP' })
