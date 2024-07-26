@@ -1,6 +1,6 @@
 
 export enum Status {
-    to_do = 'to_do',
-    in_progress = 'in_progress',
-    done = 'done'
+    Para_hacer = 'Para_hacer',
+    En_progreso = 'En_progreso',
+    Hecho = 'Hecho'
 }
